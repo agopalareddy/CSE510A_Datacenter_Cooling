@@ -16,7 +16,7 @@ How to setup:
     conda create -n cooler
     conda activate cooler
     ```
-7. Upgrade Python to 3.12:
+7. Install Python to 3.12:
     ```sh
     conda install python=3.12
     ```
