@@ -28,7 +28,8 @@ How to setup:
      ```sh
      cd ../drl
      ```
-10. Set the path of the EnergyPlus folder in the file you want to run.
+10. Set the path of the EnergyPlus folder in the file you want to run on this line: os.environ['EPLUS_PATH'] = 
+
 11. Run the training script:
      ```sh
      python3 ppo.py
