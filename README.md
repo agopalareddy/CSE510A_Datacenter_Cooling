@@ -24,23 +24,12 @@ How to setup:
     ```sh
     pip3 install -r requirements.txt
     ```
-9. Clone the Sinergym repository:
-    ```sh
-    git clone https://github.com/ugr-sail/sinergym
-    ```
-10. Open the Sinergym repository in terminal:
-     ```sh
-     cd sinergym
-     ```
-11. Install Sinergym:
-     ```sh
-     pip3 install -e .
-     ```
-12. Navigate back to the CSE510A-Datacenter-Cooling repository and into the `drl` folder:
+9. Navigate back to the CSE510A-Datacenter-Cooling repository and into the `drl` folder:
      ```sh
      cd ../drl
      ```
-13. Run the training script:
+10. Set the path of the EnergyPlus folder in the file you want to run.
+11. Run the training script:
      ```sh
      python3 ppo.py
      ```
